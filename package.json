@@ -1,0 +1,14 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "landing webpae",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass  sass/main.scss css/design.css"
+  },
+  "author": "babarqurehsi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
